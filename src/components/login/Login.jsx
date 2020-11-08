@@ -2,15 +2,10 @@ import React from "react";
 import { Button, TextField } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 import AccountCircle from "@material-ui/icons/AccountCircle";
-// import GoogleLogin from 'react-google-login';
 import VpnKeyIcon from "@material-ui/icons/VpnKey";
 import "./Login.css";
 import LoginImg from "../../images/login.svg";
 const Login = (props) => {
-  // const response = (res) => {
-  //   console.log(res)
-  //   console.log(res.profileObj)
-  // }
   return (
     <div className="login d-flex align-items-center justify-content-center p-3">
       <div className="login-img">
@@ -57,15 +52,6 @@ const Login = (props) => {
               Login
             </Button>
           </div>
-          {/* <div className="button my-3 mx-1">
-           <GoogleLogin 
-            clientId="55773275887-coctt26dqfmtvr5c599j14s2jmdt6fqc.apps.googleusercontent.com"
-            buttonText="Login with Google"
-            onSuccess={response}
-            onFailure={response}
-            cookiePolicy={"singgle_host_origin"}
-           />
-          </div> */}
         </div>
       </form>
     </div>

@@ -11,6 +11,9 @@
 .logout{
     cursor: pointer;
 }
+.MuiInputLabel-outlined.MuiInputLabel-shrink{
+    transform: translate(2px, 0px) scale(0.75) !important;
+}
 @media(max-width : 768px){
     .top-nav{
         height: 77.27px

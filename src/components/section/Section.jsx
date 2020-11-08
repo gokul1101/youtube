@@ -32,7 +32,7 @@ class Section extends Component {
       url: "https://www.googleapis.com/youtube/v3/search",
       params: {
         part: "snippet",
-        key: "AIzaSyBsHhBTXPEdoKBWgpwYM4GGoR4wK2QlPvg",
+        key: "AIzaSyCdXjI8f3QWwf6HEWVYAPU4-ZVrn4kPoRw",
         maxResults: 30,
         q: this.state.inputValue,
       },
@@ -54,7 +54,7 @@ class Section extends Component {
       url: "https://www.googleapis.com/youtube/v3/videos",
       params: {
         part: "snippet,contentDetails,statistics",
-        key: "AIzaSyBsHhBTXPEdoKBWgpwYM4GGoR4wK2QlPvg",
+        key: "AIzaSyCdXjI8f3QWwf6HEWVYAPU4-ZVrn4kPoRw",
         maxResults: 30,
         chart: "mostPopular",
         regionCode: "IN",
