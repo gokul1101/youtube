@@ -1,0 +1,54 @@
+.side-nav{
+    box-shadow: 0 6px 10px #cecece,
+    0 7px 11px #cecece;
+}
+.expand-nav{
+    width: 170px;
+}
+.logo{
+    height: 90px;
+    box-shadow : 0 3px 5px #cecece;
+    cursor: pointer;
+}
+.toggle-nav{
+    width : 70px;
+}
+.toggle-nav .logo img,
+.toggle-nav .nav-list ul li span{
+    display : none;
+}
+.expand-nav,
+.toggle-nav{
+    transition: width 0.1s ease-in-out;
+}
+.nav-list ul li{
+    padding: 25px 0 25px 20px !important;
+    border-bottom: 1px solid #cecece;
+}
+.nav-list ul li span{
+    letter-spacing: 1px;
+}
+.nav-list ul li a div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 5px;
+    transform: scaleY(0);
+    transition: all 0.2s linear;
+    transform-origin: center;
+    background-color: #000;
+}
+.nav-list ul li .active div{
+    transform: scaleY(1);
+}
+@media(max-width : 768px){
+    .expand-nav{
+        width : 70px;
+    }
+    .expand-nav .logo img,
+    .expand-nav .nav-list ul li span{
+        display : none;
+    }   
+}

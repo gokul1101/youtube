@@ -1,0 +1,14 @@
+.search-btn button{
+    padding: 0 10px !important;
+    height: 40px !important;
+}
+.MuiInputBase-root{
+    height: 40px !important;
+}
+.MuiOutlinedInput-input{
+    padding: 18.5px 14px !important;
+}
+.MuiFormControl-root label{
+    margin-top: -7px !important;
+}
+

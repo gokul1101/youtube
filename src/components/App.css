@@ -1,0 +1,37 @@
+*{
+    font-family: 'Jost', sans-serif !important;
+}
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style-type: none !important;
+}
+body{
+ width: auto;
+ height: auto;   
+}
+section{
+    width : 100vw !important;
+    height: 100vh !important;
+    overflow: hidden;
+}
+section * {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+.main-comp{
+    width: calc(100% - 170px) !important;
+}
+.toggle-main-comp{
+    width: calc(100% - 70px) !important;
+}
+.main-div{
+    height: calc(100% - 79px) !important;
+}
+@media(max-width : 768px){
+    .main-comp{
+        width: calc(100% - 70px) !important;
+    }
+}

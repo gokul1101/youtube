@@ -1,0 +1,18 @@
+.top-nav{
+    width :100%;
+    height: 78.38px;
+    box-shadow: 0 3px 7px #cecece,
+    0 4px 8px #cecece;
+}
+.login-div span{
+    letter-spacing: 1px;
+    font-size: 18px !important;
+}
+.logout{
+    cursor: pointer;
+}
+@media(max-width : 768px){
+    .top-nav{
+        height: 77.27px
+    }
+}

@@ -1,0 +1,31 @@
+.embed-responsive{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width :700px;
+    height: 500px;
+}
+@media (max-width: 1024px){
+    .embed-responsive{
+        width : 600px;
+        height: 400px;
+    }
+}
+@media (max-width: 768px){
+    .embed-responsive{
+        width : 500px;
+        height: 300px;
+    }
+}
+@media (max-width: 480px){
+    .embed-responsive{
+        width : 350px;
+        height: 300px;
+    }
+}
+@media (max-width: 320px){
+    .embed-responsive{
+        width : 250px;
+        height: 300px;
+    }
+}
